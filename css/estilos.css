@@ -404,8 +404,8 @@ overflow: hidden;
 /*   background-image: url("/multi/dialogo.png"); */
 /*   background-size: cover; */
 /*   background-position: center; */
-  width: 10rem;
-  height: 7em;
+  width: 20rem;
+  height: 14em;
   background-color: white;
   border-radius: 30%;
   border-style: double;
@@ -419,7 +419,7 @@ overflow: hidden;
 
 .dialogo p {
   font-family: 'Indie Flower', cursive;
-  color: white;
+  color: black;
   margin-top: 39%;
   text-align: center;
   padding: 0rem 3rem;
@@ -429,7 +429,7 @@ overflow: hidden;
 
 .dialogo a{
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .dialogo span{

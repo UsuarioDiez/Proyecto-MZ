@@ -1,6 +1,6 @@
 /* ----------------Fondo de las páginas---------------------- */
 body{
-  background-image: url("/multi/fondo.jpg"); 
+  background-image: url("multi/fondo.jpg"); 
   background-color: black;
   background-size: contain; 
   margin: 0;
@@ -419,7 +419,7 @@ overflow: hidden;
 
 .dialogo p {
   font-family: 'Indie Flower', cursive;
-  color: black;
+  color: white;
   margin-top: 39%;
   text-align: center;
   padding: 0rem 3rem;
@@ -429,7 +429,7 @@ overflow: hidden;
 
 .dialogo a{
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .dialogo span{

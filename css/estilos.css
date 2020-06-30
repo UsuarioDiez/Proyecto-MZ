@@ -1,0 +1,593 @@
+/* ----------------Fondo de las páginas---------------------- */
+body{
+  background-image: url("/multi/fondo.jpg");
+  background-size: contain;
+  margin: 0;
+}
+
+
+/* -----------Barra de navegación------------- */
+.contenedorup {
+  background-image: url(https://i.ytimg.com/vi/Tj304TmVTqo/maxresdefault.jpg);
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  color: white;
+}
+
+.cont-barra {
+  margin:0;
+  padding: 0;
+}
+
+.barra1{
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  background-color: black;
+  margin-top: 0;
+  position: fixed;
+  width: 100%;
+  margin-left: 0;
+
+}
+
+.ambientacion {
+  padding-top: 0.8rem;
+  padding-left: 1rem;
+}
+
+.menu-barra{
+  display: flex;
+  width: 35%;
+  font-size: 1.6rem;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-right: 3rem;
+  list-style: none;
+  height: 100%;
+  margin: 0;
+}
+
+.menu-barra a{
+  color: white;
+  text-decoration: none;
+  transition-property: font-size;
+  transition-duration: 0.3s;
+  position: relative;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.menu-barra li {
+    padding-top: 1.5rem;
+}
+
+.menu-barra li:hover {
+  background-image: url(https://images.vexels.com/media/users/3/151589/isolated/preview/ef5e21e69cb873525a295cde1470ed1b-icono-de-salpicadura-de-sangre-by-vexels.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.menu-barra a:hover{
+  color: white;
+  font-size: 2rem;
+}
+
+
+.nombre h1{
+  margin: 0;
+  padding-left: 3rem;
+  padding-top: 1.5rem;
+  font-size: 1.6rem;
+}
+
+.nombre a{
+  text-decoration: none;
+  color: red;
+  transition-property: font-size;
+  transition-duration: 0.3s;
+  padding-top: 19rem;
+  font-family: 'Creepster', cursive;
+  font-size: 1.8rem;
+}
+
+.nombre a:hover {
+font-size: 2rem;
+}
+
+.barra-img{
+  height: 100%;
+  width: 20%;
+  overflow: hidden;
+  position: relative;
+}
+
+.barra-img img{
+  height:260%;
+  width: 110%;
+  margin-top: -4rem;
+  position: absolute;
+}
+
+.saludo {
+  position: static;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  font-size: 1.8rem;
+  color: white;
+  text-shadow:10px 10px 10px black;
+}
+
+
+/* ---------------Contenido de la página principal------------- */
+
+main h1{
+  font-family: 'Hanalei Fill';
+  color:red;
+  text-shadow:10px 10px 10px black;
+  font-size: 2.47rem;
+  text-align: center;
+  font-weight: 100;
+}
+
+.secretos{
+  width: 80%;
+  margin-left: 8.5rem;
+  padding-right: 2rem;
+}
+
+.secretos td{
+  font-size: 1.5rem;
+  color: white;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  text-align: left;
+  width: 50%;
+  font-family: "Times New Roman", Times, serif;
+  height: 25rem;
+}
+
+.secretos h3{
+    padding-top: 0rem;
+
+}
+
+.secretos img {
+  border-style: solid;
+  border-color: red;
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.secretos img:hover {
+  background-image: url(https://pa1.narvii.com/6938/8a56aed87297957b8a37dd8797d7ab7014494c70r1-320-320_hq.gif);
+}
+
+/* -----------Cartel a mitad de la pagina------------ */
+
+.frustracion {
+  background-image: url('https://dolcevita.ec/wp-content/uploads/2020/01/00031949_xl.jpg');
+  height: 20rem;
+  background-position: 0%20%;
+  background-size: cover;
+  color: white;
+  padding-top: 9rem;
+  padding-left: 6rem;
+  border-style: outset;
+  border-width: medium;
+  border-color: red;
+  text-shadow: 5px 5px 6px black;
+}
+
+.frustracion a {
+  text-decoration: none;
+  color: red;
+}
+
+/* ------------blog y testimoniales------------ */
+
+.extra {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog {
+  width: 50%;
+  margin-left: 2rem;
+  color: white;
+  padding: 2rem;
+  padding-top: 1rem;
+}
+.entrada-blog {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.entrada-blog img {
+  width: 200px;
+  height: 150px;
+
+}
+
+.texto-entrada {
+padding-left: 2rem;
+padding-top: 2rem;
+}
+
+.texto-entrada  h4{
+  margin: 0;
+  color: orange;
+}
+
+.texto-entrada a{
+  text-decoration: none;
+  color: white;
+}
+
+.test-full {
+  display: flex;
+  flex-direction: column;
+  width: 43%;
+}
+
+.testimoniales{
+  width: 80%;
+  border-style: solid;
+  border-color: rgb(78,176,76);
+  margin-right: 2rem;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  padding-top: 0rem;
+  color: white;
+  height: 13rem;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  background-color: rgb(78, 176, 76);
+}
+
+.anuncio1 img{
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  text-align: center;
+  width: 90%;
+}
+
+.susto{
+  width: 80%;
+  height: 40%;
+  background-color: black;
+  border-radius: 18rem;
+  border-style: solid;
+  border-color: black;
+  margin-left: 2rem;
+  margin-top: -1rem;
+}
+
+.susto:hover{
+  width: 80%;
+  height: 40%;
+  background-image: url(https://i.ytimg.com/vi/PCOG2vyfcAA/maxresdefault.jpg);
+  background-size: contain;
+  background-position: center;
+  border-radius: 18rem;
+  margin-left: 2rem;
+  margin-top: -1rem;
+}
+
+/* ----------------letras pequeñas---------------- */
+
+.abajo {
+  color: white;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*------------------NOSOTROS------------------------*/
+
+/* --------------Contenido en general------------ */
+.descripcion {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 1.4rem;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.mapa img{
+  width: 100%;
+}
+
+.mapa p{
+  text-align: right;
+  margin: 0;
+  font-family: serif;
+  font-size: 0.8rem;
+}
+
+.descripcion span{
+  font-size: 1rem;
+}
+
+.anuncio2{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.anuncio2 img {
+  width: 400px;
+  height: 350px;
+}
+
+.r img {
+float: right;
+margin-right: 0rem;
+padding-right: 0rem;
+}
+
+.l img {
+text-align: left;
+margin-left: 0rem;
+}
+
+
+.exponentes {
+  width: 100%;
+}
+
+.exponentes img{
+  width: 300px;
+  height: 200px;
+  text-align: center !important;
+}
+
+.exponentes td{
+  width: 33.3%;
+  text-align: center;
+  font-size: 1rem;
+  vertical-align: top;
+  padding 0rem 3rem;
+
+}
+
+.exponentes p{
+  text-align: left;
+}
+
+.exponentes-desc td{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* -----------------animación simple------------------- */
+
+.animacion {
+height: 25rem;
+position: relative;
+overflow: hidden;
+}
+
+.bruja {
+  display: block;
+  position: absolute;
+  bottom: 0rem;
+  right:100%;
+  transition-duration: 1s;
+  transition-property: right;
+}
+
+.animacion:hover .bruja{
+  display: block;
+  position: absolute;
+  right: 50%;
+}
+
+.dialogo {
+  width: 400px;
+  height: 500px;
+  background-image: url("/multi/dialogo.png");
+  background-size: cover;
+  background-position: center;
+  display: block;
+  position: absolute;
+  left: 100%;
+  bottom: 1.8rem;
+  transition-duration: 1s;
+  transition-property: left;
+}
+
+.dialogo p {
+  font-family: 'Indie Flower', cursive;
+  color: black;
+  margin-top: 39%;
+  text-align: center;
+  padding: 0rem 3rem;
+  font-size: 2rem;
+  text-shadow:3px 3px 10px black;
+}
+
+.dialogo a{
+  text-decoration: none;
+  color: black;
+}
+
+.dialogo span{
+  color: red;
+}
+
+.animacion:hover .dialogo{
+  display: block;
+  position: absolute;
+  left: 38%;
+  bottom: 1.8rem;
+}
+/* -----------------------CONTACTO------------------------- */
+
+/* ----------------------formulario-------------------- */
+
+#formulario{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+#contact-form p {
+  color:white;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+  color: white;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-width: 0.2rem;
+  border-color: red;
+}
+
+#redes {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+/* ---------------------------redes------------------- */
+
+.lista-redes {
+  width: 100%;
+}
+
+.lista-redes td{
+  width: 20%;
+  text-align: center;
+  color: white;
+}
+
+#redes img {
+  width: 4rem;
+  height: 4rem;
+}
+
+/* ---------------------MATERIAL------------------ */
+
+/* ------------------fotos------------------- */
+
+#audiovisual {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fotos img {
+  width: 350px;
+  height: 220px;
+}
+
+#videos {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.propio {
+  text-align: right;
+}
+
+.propio h2 {
+  text-align: left;
+  padding-left: 2.5rem;
+}
+
+/* ------------------------animación de agradecimiento-------------------- */
+#agradecimiento {
+  width: 100%;
+  height: 25rem;
+  font-family: 'Bonbon', cursive;
+  font-size: 2rem;
+  text-shadow:10px 10px 10px black;
+  position: relative;
+  overflow: hidden;
+}
+
+.gracias {
+  display: block;
+  position: absolute;
+  bottom: 30%;
+  left: 20%;
+}
+
+.base {
+  display: block;
+  position: absolute;
+  bottom: 0rem;
+  width: 100%;
+  margin-bottom: -5rem;
+}
+
+.base img {
+  width: 100%;
+}
+
+
+.piolines{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.piolines img {
+  width: 100px;
+  height: 150px;
+}
+
+.brillos {
+  width: 100%;
+  margin-left: 2.5rem;
+  position: absolute;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}

@@ -1,6 +1,6 @@
 /* ----------------Fondo de las páginas---------------------- */
 body{
-  background-image: url("/multi/fondo.jpg");
+  background-image: url("multi/fondo.jpg");
   background-size: contain;
   margin: 0;
 }
@@ -400,7 +400,7 @@ overflow: hidden;
 .dialogo {
   width: 400px;
   height: 500px;
-  background-image: url("/multi/dialogo.png");
+  background-image: url("multi/dialogo.png");
   background-size: cover;
   background-position: center;
   display: block;

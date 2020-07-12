@@ -399,7 +399,7 @@ overflow: hidden;
 .dialogo {
   width: 400px;
   height: 500px;
-  background-image: url("multi/dialogo.png");
+  background-color: white;
   background-size: cover;
   background-position: center;
   display: block;

@@ -397,8 +397,8 @@ overflow: hidden;
 }
 
 .dialogo {
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 300px;
   background-color: white;
   background-size: cover;
   background-position: center;
@@ -408,6 +408,7 @@ overflow: hidden;
   bottom: 1.8rem;
   transition-duration: 1s;
   transition-property: left;
+  border-radius: 30%;
 }
 
 .dialogo p {

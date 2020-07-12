@@ -1,6 +1,6 @@
 /* ----------------Fondo de las páginas---------------------- */
 body{
-  background-image: url(multi/fondo.jpg);
+  background-color: black;
   background-size: contain;
   margin: 0;
 }
